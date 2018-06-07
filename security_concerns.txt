@@ -1,0 +1,7 @@
+This is is for bonus #5:
+
+Setting up the flask application to run over http instead of https is an immediate security risk that can be mitigated by using OpenSSH to secure the connection via SSL layer
+
+The database is storing all the data as plain text, which could be easily read by people with malicious intent, which could be mitigated by encrypting the data with a known unpublished key
+
+If the endpoint isn't protected by a user interface then anyone could send in the right formatted command text to wipe the database, or run malicious code.

@@ -1,0 +1,1 @@
+curl -X POST http://localhost:8080/database && curl -F "filename=@commands.txt" http://localhost:8080/commands && curl -X GET http://localhost:8080/commands && curl -X GET http://localhost:8080/commands
